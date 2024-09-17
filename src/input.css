@@ -3,14 +3,48 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Estedad-Regular';
-  src: url('./font/Estedad-Regular.woff2') format('woff2');
+  font-family: "Estedad-Regular";
+  src: url("./font/Estedad-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Estedad-Bold';
-  src: url('./font/Estedad-Bold.woff2') format('woff2');
+  font-family: "Estedad-Bold";
+  src: url("./font/Estedad-Bold.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Estedad-Medium';
-  src: url('./font/Estedad-Medium.woff2') format('woff2');
+  font-family: "Estedad-Medium";
+  src: url("./font/Estedad-Medium.woff2") format("woff2");
+}
+
+.header-contents {
+  background-image: url(./images/Slider.png);
+}
+
+.pagination {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU0IiBoZWlnaHQ9IjMzIiB2aWV3Qm94PSIwIDAgMTU0IDMzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMy4xNDkyIDEyLjk5NTdDMTUuMzI1NSA1LjU2NTg4IDIxLjkwNDYgMCAyOS42NDY2IDBIMTI1LjExOEMxMzIuNTcxIDAgMTM4Ljk5OCA1LjE2MTY0IDE0MS4yNjEgMTIuMjYzNEMxNDQuMjUgMjEuNjUwNiAxNDguODY3IDMzIDE1My43MTEgMzNDMTYxLjk3IDMzIC05LjQ5NzU1IDMzIDAuNDEzODkgMzNDNi4wNzYwNiAzMyAxMC40NDQ0IDIyLjIzMDIgMTMuMTQ5MiAxMi45OTU3WiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=");
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #adadad;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #417f56 !important;
+  border: 2px solid #e5f2e9 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.swiper-container {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

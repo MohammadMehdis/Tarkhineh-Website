@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        estedadBold: ["Estedad-Regular"],
-        estedadRegular: ["Estedad-Bold"],
+        estedadBold: ["Estedad-Bold"],
+        estedadRegular: ["Estedad-Regular"],
         estedadMedium: ["Estedad-Medium"],
       },
       colors: {

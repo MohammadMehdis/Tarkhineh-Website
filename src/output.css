@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: #E5F2E9;
   /* 2 */
 }
 
@@ -554,28 +554,246 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[11\.5rem\] {
+  height: 11.5rem;
+}
+
+.h-\[14\.4rem\] {
+  height: 14.4rem;
+}
+
+.h-\[2rem\] {
+  height: 2rem;
+}
+
+.h-\[3\.3rem\] {
+  height: 3.3rem;
+}
+
+.h-\[33\.6rem\] {
+  height: 33.6rem;
+}
+
+.h-\[4rem\] {
+  height: 4rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[13\.7rem\] {
+  width: 13.7rem;
+}
+
+.w-\[15\.4rem\] {
+  width: 15.4rem;
+}
+
+.w-\[18\.4rem\] {
+  width: 18.4rem;
+}
+
+.w-\[80\.8rem\] {
+  width: 80.8rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[0\.4rem\] {
+  gap: 0.4rem;
+}
+
+.gap-\[3\.5rem\] {
+  gap: 3.5rem;
+}
+
+.rounded-\[0\.8rem\] {
+  border-radius: 0.8rem;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-green-100 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(65 127 86 / var(--tw-border-opacity));
+}
+
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 127 86 / var(--tw-bg-opacity));
+}
+
+.px-\[10\.8rem\] {
+  padding-left: 10.8rem;
+  padding-right: 10.8rem;
+}
+
+.px-\[3\.4rem\] {
+  padding-left: 3.4rem;
+  padding-right: 3.4rem;
+}
+
+.px-\[9\.4rem\] {
+  padding-left: 9.4rem;
+  padding-right: 9.4rem;
+}
+
+.py-\[3\.2rem\] {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-estedadBold {
+  font-family: Estedad-Bold;
+}
+
+.font-estedadMedium {
+  font-family: Estedad-Medium;
+}
+
+.font-estedadRegular {
+  font-family: Estedad-Regular;
+}
+
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
+}
+
+.text-\[1\.6rem\] {
+  font-size: 1.6rem;
 }
 
 .text-\[10px\] {
   font-size: 10px;
 }
 
-@font-face {
-  font-family: 'Estedad-Regular';
+.text-\[2rem\] {
+  font-size: 2rem;
+}
 
-  src: url('./font/Estedad-Regular.woff2') format('woff2');
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(113 113 113 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 242 233 / var(--tw-text-opacity));
+}
+
+.text-green-100 {
+  --tw-text-opacity: 1;
+  color: rgb(65 127 86 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @font-face {
-  font-family: 'Estedad-Bold';
+  font-family: "Estedad-Regular";
 
-  src: url('./font/Estedad-Bold.woff2') format('woff2');
+  src: url("./font/Estedad-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Estedad-Medium';
+  font-family: "Estedad-Bold";
 
-  src: url('./font/Estedad-Medium.woff2') format('woff2');
+  src: url("./font/Estedad-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Estedad-Medium";
+
+  src: url("./font/Estedad-Medium.woff2") format("woff2");
+}
+
+.header-contents {
+  background-image: url(./images/Slider.png);
+}
+
+.pagination {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU0IiBoZWlnaHQ9IjMzIiB2aWV3Qm94PSIwIDAgMTU0IDMzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMy4xNDkyIDEyLjk5NTdDMTUuMzI1NSA1LjU2NTg4IDIxLjkwNDYgMCAyOS42NDY2IDBIMTI1LjExOEMxMzIuNTcxIDAgMTM4Ljk5OCA1LjE2MTY0IDE0MS4yNjEgMTIuMjYzNEMxNDQuMjUgMjEuNjUwNiAxNDguODY3IDMzIDE1My43MTEgMzNDMTYxLjk3IDMzIC05LjQ5NzU1IDMzIDAuNDEzODkgMzNDNi4wNzYwNiAzMyAxMC40NDQ0IDIyLjIzMDIgMTMuMTQ5MiAxMi45OTU3WiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=");
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #adadad;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #417f56 !important;
+  border: 2px solid #e5f2e9 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.swiper-container {
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
