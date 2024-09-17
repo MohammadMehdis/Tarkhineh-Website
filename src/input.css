@@ -14,6 +14,10 @@
   font-family: "Estedad-Medium";
   src: url("./font/Estedad-Medium.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Estedad-SemiBold";
+  src: url("./font/Estedad-SemiBold.woff2") format("woff2");
+}
 
 .header-contents {
   background-image: url(./images/Slider.png);
@@ -47,4 +51,11 @@
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.about {
+  background-image: url(./images/about.png);
+}
+footer {
+  background-image: url(./images/Footer.png);
 }
