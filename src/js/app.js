@@ -11,3 +11,12 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
+
+var swiperSlide = new Swiper(".mySwiperSlide", {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  pagination: {
+    el: ".swiper-paginationSlide",
+    clickable: true,
+  },
+});

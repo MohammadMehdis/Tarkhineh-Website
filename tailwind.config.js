@@ -11,10 +11,12 @@ module.exports = {
       },
       colors: {
         black: "#353535",
+        red: "#C30000",
         white: {
           100: "#FFFFFF",
           200: "#F9F9F9",
           300: "#EDEDED",
+          400: "#FFF2F2",
         },
         green: {
           100: "#417F56",
@@ -24,6 +26,7 @@ module.exports = {
           100: "#717171",
           200: "#E5F2E9",
           300: "#CBCBCB",
+          400: "#ADADAD",
         },
       },
       boxShadow: {
