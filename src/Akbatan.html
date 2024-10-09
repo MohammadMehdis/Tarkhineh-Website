@@ -344,7 +344,7 @@
         </header>
       </div>
       <section
-        class="Special-offer swiperSlide mySwiperSlide mt-[4.8rem] w-full h-auto px-[10.8rem] overflow-x-hidden"
+        class="Special-offer swiperSlide mySwiperSlide mt-[4.8rem] w-full h-auto px-[10.8rem] ovrHidden relative"
       >
         <div class="w-full font-estedadBold text-[2.4rem]">
           <h2>پیشنهاد ویژه</h2>
@@ -660,7 +660,7 @@
                     >
                       <span
                         class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
-                        >۲۵</span
+                        >%۲۵</span
                       >
                       <span class="line-through"> ۲۱۵٬۰۰۰</span>
                     </div>
@@ -753,8 +753,920 @@
             </div>
           </div>
         </div>
+        <div
+          id="go-to-last-slide"
+          class="w-[4rem] h-[4rem] flex justify-center items-center bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300 cursor-pointer absolute left-0 top-[65%] z-50"
+        >
+          <svg
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 27.56C19.7467 27.56 19.4934 27.4667 19.2934 27.2667L10.6 18.5734C9.18671 17.16 9.18671 14.84 10.6 13.4267L19.2934 4.73336C19.68 4.34669 20.32 4.34669 20.7067 4.73336C21.0934 5.12003 21.0934 5.76003 20.7067 6.14669L12.0134 14.84C11.3734 15.48 11.3734 16.52 12.0134 17.16L20.7067 25.8534C21.0934 26.24 21.0934 26.88 20.7067 27.2667C20.5067 27.4534 20.2534 27.56 20 27.56Z"
+              fill="#757575"
+            />
+          </svg>
+        </div>
       </section>
-      <footer
+      <section
+        class="Popular-foods swiperSlide2 mySwiperSlide2 px-[10.8rem] py-[2.4rem] w-full h-[55.5rem] bg-green-200 ovrHidden mt-[4.8rem] relative"
+      >
+        <div class="w-full font-estedadBold text-[2.4rem] text-white-100">
+          <h3>غذاهای محبوب</h3>
+        </div>
+        <br />
+        <div class="container-Popular swiper-wrapper flex gap-[2.4rem]">
+          <div class="swiper-slide">
+            <div
+              class="food-item-1 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/penine.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  پنینی اسفناج
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۳</span>
+                      <span>(۲۰ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۱۵</span
+                      >
+                      <span class="line-through">۲۱۰٬۰۰۰ </span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۱۹۰٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="food-item-2 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/pizza.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  پیتزا پپرونی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۴</span>
+                      <span>(۵۱ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex justify-center items-center"
+                  >
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۱۰۰٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="food-item-3 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/ratatoy.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  راتاتویی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۴</span>
+                      <span>(۴۳ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۴۵</span
+                      >
+                      <span class="line-through"> ۱۸۰٬۰۰۰ </span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۹۵٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="food-item-4 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/borani.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  بورانی بادمجان
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۵</span>
+                      <span>(۷۵ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۲۲</span
+                      >
+                      <span class="line-through"> ۱۷۰٬۰۰۰</span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۱۴۸٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="food-item-5 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/pakora.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  پاکورا گیاهی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۵</span>
+                      <span>(۸۰ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۲۰</span
+                      >
+                      <span class="line-through"> ۱۷۵۰۰۰</span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span>۱۵۰۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="go-to-last-slide2"
+          class="w-[4rem] h-[4rem] flex justify-center items-center bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300 cursor-pointer absolute left-0 top-[62.5%] z-50"
+        >
+          <svg
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 27.56C19.7467 27.56 19.4934 27.4667 19.2934 27.2667L10.6 18.5734C9.18671 17.16 9.18671 14.84 10.6 13.4267L19.2934 4.73336C19.68 4.34669 20.32 4.34669 20.7067 4.73336C21.0934 5.12003 21.0934 5.76003 20.7067 6.14669L12.0134 14.84C11.3734 15.48 11.3734 16.52 12.0134 17.16L20.7067 25.8534C21.0934 26.24 21.0934 26.88 20.7067 27.2667C20.5067 27.4534 20.2534 27.56 20 27.56Z"
+              fill="#757575"
+            />
+          </svg>
+        </div>
+      </section>
+      <section
+        class="Non-Iranian-foods swiperSlide3 mySwiperSlide3 px-[10.8rem] w-full ovrHidden mt-[4.8rem] relative flex flex-col items-center gap-[2.9rem]"
+      >
+        <div class="w-full font-estedadBold text-[2.4rem] text-black">
+          <h3>غذاهای غیر ایرانی</h3>
+        </div>
+        <div class="container-Non-Iranian swiper-wrapper flex gap-[2.4rem]">
+          <div class="swiper-slide">
+            <div
+              class="Non-Iranian-item-1 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/soshi.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  سوشی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۴</span>
+                      <span>(۷۰ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۱۵</span
+                      >
+                      <span class="line-through">۱۰۰٬۰۰۰</span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۸۵٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="Non-Iranian-item-2 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/ratatoyusa.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  راتاتویی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۴</span>
+                      <span>(۶۰ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۴۵</span
+                      >
+                      <span class="line-through">۱۸۰٬۰۰۰</span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۹۵٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="Non-Iranian-item-3 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/pakorevge.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  پاکورا سبزیجات
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۴</span>
+                      <span>(۷۵ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۸</span
+                      >
+                      <span class="line-through">۱۲۵٬۰۰۰ </span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span>۱۱۰٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="Non-Iranian-item-4 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/lazania.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  لازانیا
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۵</span>
+                      <span>(۴۸ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex justify-center items-center"
+                  >
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span> ۱۵۰٬۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="Non-Iranian-item-5 w-[28.8rem] h-[44.3rem] bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300"
+            >
+              <img src="./images/homesalad.png" alt="" />
+              <div
+                class="info-card w-full h-[40%] p-[1.6rem] flex flex-col justify-between"
+              >
+                <h3 class="font-semibold text-[2rem] text-black text-center">
+                  سالاد خانگی
+                </h3>
+                <div
+                  class="detail-card font-estedadRegular flex justify-between items-center"
+                >
+                  <div
+                    class="score w-[11.3rem] h-[4.9rem] text-[1rem] text-gray-400"
+                  >
+                    <div
+                      class="favorite w-full flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.00016 14.4333C7.7935 14.4333 7.5935 14.4066 7.42683 14.3467C4.88016 13.4733 0.833496 10.3733 0.833496 5.79332C0.833496 3.45998 2.72016 1.56665 5.04016 1.56665C6.16683 1.56665 7.22016 2.00665 8.00016 2.79332C8.78016 2.00665 9.8335 1.56665 10.9602 1.56665C13.2802 1.56665 15.1668 3.46665 15.1668 5.79332C15.1668 10.38 11.1202 13.4733 8.5735 14.3467C8.40683 14.4066 8.20683 14.4333 8.00016 14.4333ZM5.04016 2.56665C3.2735 2.56665 1.8335 4.01332 1.8335 5.79332C1.8335 10.3466 6.2135 12.88 7.7535 13.4066C7.8735 13.4466 8.1335 13.4466 8.2535 13.4066C9.78683 12.88 14.1735 10.3533 14.1735 5.79332C14.1735 4.01332 12.7335 2.56665 10.9668 2.56665C9.9535 2.56665 9.0135 3.03998 8.40683 3.85998C8.22016 4.11332 7.7935 4.11332 7.60683 3.85998C6.98683 3.03332 6.0535 2.56665 5.04016 2.56665Z"
+                          fill="#ADADAD"
+                        />
+                      </svg>
+                      <span>افزودن به علاقمندی‌ها</span>
+                    </div>
+                    <div
+                      class="star w-[7.9rem] h-[3.2rem] flex justify-between items-center"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 0.404509L9.67723 5.56649L9.70529 5.65286H9.79611H15.2237L10.8327 8.84315L10.7592 8.89653L10.7873 8.9829L12.4645 14.1449L8.07347 10.9546L8 10.9012L7.92653 10.9546L3.53548 14.1449L5.21271 8.9829L5.24078 8.89653L5.1673 8.84315L0.776258 5.65286H6.20389H6.29471L6.32277 5.56649L8 0.404509Z"
+                          fill="#F4B740"
+                          stroke="#CBCBCB"
+                          stroke-width="0.25"
+                        />
+                      </svg>
+                      <span class="text-black">۵</span>
+                      <span>(۵۹ امتیاز)</span>
+                    </div>
+                  </div>
+                  <div
+                    class="price w-[9.2rem] h-[4.8rem] flex flex-wrap justify-end"
+                  >
+                    <div
+                      class="w-[7.2rem] h-[1.8rem] flex justify-between items-center flex-row-reverse text-[1rem] text-gray-400"
+                    >
+                      <span
+                        class="w-[3.2rem] h-[1.6rem] bg-white-400 text-red rounded-[0.8rem] flex justify-center items-center"
+                        >%۲۰</span
+                      >
+                      <span class="line-through"> ۱۷۵۰۰۰</span>
+                    </div>
+                    <div class="font-estedadRegular text-[1.5rem] text-black">
+                      <span>۱۵۰۰۰۰ تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[1.6rem] text-white-100">
+                  <a
+                    class="w-[25.6rem] h-[4rem] flex justify-center items-center bg-green-100 rounded-[0.4rem]"
+                    href="#"
+                    >افزودن به سبد خرید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="go-to-last-slide3"
+          class="w-[4rem] h-[4rem] flex justify-center items-center bg-white-100 rounded-[0.8rem] border-[0.1rem] border-gray-300 cursor-pointer absolute left-0 top-[55%] z-50"
+        >
+          <svg
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 27.56C19.7467 27.56 19.4934 27.4667 19.2934 27.2667L10.6 18.5734C9.18671 17.16 9.18671 14.84 10.6 13.4267L19.2934 4.73336C19.68 4.34669 20.32 4.34669 20.7067 4.73336C21.0934 5.12003 21.0934 5.76003 20.7067 6.14669L12.0134 14.84C11.3734 15.48 11.3734 16.52 12.0134 17.16L20.7067 25.8534C21.0934 26.24 21.0934 26.88 20.7067 27.2667C20.5067 27.4534 20.2534 27.56 20 27.56Z"
+              fill="#757575"
+            />
+          </svg>
+        </div>
+        <div
+          class="w-[18.4rem] h-[4rem] flex justify-around items-center border-[0.1rem] border-green-100 text-[1.6rem] text-green-100 rounded-[0.4rem] cursor-pointer"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 22.75H8C4.98 22.75 3.25 21.02 3.25 18V8.25C3.25 5.1 4.85 3.5 8 3.5C8.41 3.5 8.75 3.84 8.75 4.25C8.75 4.65 8.91 5.03 9.19 5.31C9.47 5.59 9.85 5.75 10.25 5.75H13.75C14.58 5.75 15.25 5.08 15.25 4.25C15.25 3.84 15.59 3.5 16 3.5C19.15 3.5 20.75 5.1 20.75 8.25V18C20.75 21.02 19.02 22.75 16 22.75ZM7.34998 5.02C5.76998 5.15 4.75 5.86 4.75 8.25V18C4.75 20.22 5.78 21.25 8 21.25H16C18.22 21.25 19.25 20.22 19.25 18V8.25C19.25 5.86 18.23 5.16 16.65 5.02C16.31 6.3 15.14 7.25 13.75 7.25H10.25C9.45 7.25 8.70001 6.94 8.13 6.37C7.75 5.99 7.48998 5.53 7.34998 5.02Z"
+              fill="#417F56"
+            />
+            <path
+              d="M13.75 7.25H10.25C9.45 7.25 8.7 6.94 8.13 6.37C7.56 5.79999 7.25 5.05 7.25 4.25C7.25 2.6 8.6 1.25 10.25 1.25H13.75C14.55 1.25 15.3 1.56 15.87 2.13C16.44 2.7 16.75 3.45 16.75 4.25C16.75 5.9 15.4 7.25 13.75 7.25ZM10.25 2.75C9.42 2.75 8.75 3.42 8.75 4.25C8.75 4.65 8.91 5.03 9.19 5.31C9.47 5.59 9.85 5.75 10.25 5.75H13.75C14.58 5.75 15.25 5.08 15.25 4.25C15.25 3.85 15.09 3.47 14.81 3.19C14.53 2.91 14.15 2.75 13.75 2.75H10.25Z"
+              fill="#417F56"
+            />
+            <path
+              d="M12 13.75H8C7.59 13.75 7.25 13.41 7.25 13C7.25 12.59 7.59 12.25 8 12.25H12C12.41 12.25 12.75 12.59 12.75 13C12.75 13.41 12.41 13.75 12 13.75Z"
+              fill="#417F56"
+            />
+            <path
+              d="M16 17.75H8C7.59 17.75 7.25 17.41 7.25 17C7.25 16.59 7.59 16.25 8 16.25H16C16.41 16.25 16.75 16.59 16.75 17C16.75 17.41 16.41 17.75 16 17.75Z"
+              fill="#417F56"
+            />
+          </svg>
+
+          <p>مشاهده منوی کامل</p>
+        </div>
+      </section>
+      <section class="address Swiper myswiper mt-[5.8rem]">
+        <div
+          class="w-full font-estedadBold text-[2.4rem] text-black text-center"
+        >
+          <h5>شعبه اکباتان</h5>
+        </div>
+        <div
+          class="branch-akbatan px-[10.8rem] flex flex-wrap swiper-wrapper bg-red  w-full h-[33.6rem]"
+        >
+        </div>
+        <div class="swiper-1-button-next"></div>
+        <div class="swiper-1-button-prev"></div>
+      </section>
+      <!-- <footer
         class="w-full h-[31.9rem] px-[10.8rem] mt-[4.8rem] py-[3.1rem] flex flex-col"
       >
         <div class="container-footer flex justify-between">
@@ -875,14 +1787,14 @@
             </form>
           </div>
         </div>
-        <div class="self-end mt-[0.5rem]">
+        <div class="self-end mt-[0.5rem] px-[1rem]">
           <a
             class="w-[18.3rem] h-[4rem] flex justify-center items-center bg-transparent text-white-200 border-2 border-gray-100 rounded-[0.4rem]"
             href="#"
             >ارسال پیام</a
           >
         </div>
-      </footer>
+      </footer> -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>

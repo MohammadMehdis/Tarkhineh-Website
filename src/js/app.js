@@ -16,7 +16,54 @@ var swiperSlide = new Swiper(".mySwiperSlide", {
   slidesPerView: 4,
   spaceBetween: 0,
   pagination: {
+    el: ".swiper-paginationSlide2",
+    clickable: true,
+  },
+});
+
+document
+  .getElementById("go-to-last-slide")
+  .addEventListener("click", function () {
+    swiperSlide.slideTo(swiperSlide.slides.length - 1);
+  });
+``;
+
+var swiperSlide2 = new Swiper(".mySwiperSlide2", {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  pagination: {
     el: ".swiper-paginationSlide",
     clickable: true,
   },
+});
+
+document
+  .getElementById("go-to-last-slide2")
+  .addEventListener("click", function () {
+    swiperSlide2.slideTo(swiperSlide2.slides.length - 1);
+  });
+``;
+var swiperSlide3 = new Swiper(".mySwiperSlide3", {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  pagination: {
+    el: ".swiper-paginationSlide",
+    clickable: true,
+  },
+});
+
+document
+  .getElementById("go-to-last-slide3")
+  .addEventListener("click", function () {
+    swiperSlide3.slideTo(swiperSlide3.slides.length - 1);
+  });
+``;
+var Swiper = new Swiper(".myswiper4", {
+  cssMode: true,
+  navigations: {
+    nextEl: ".swiper-1-button-next",
+    prevEl: ".swiper-1-button-prev",
+  },
+  mousewheel: true,
+  keyboard: true,
 });

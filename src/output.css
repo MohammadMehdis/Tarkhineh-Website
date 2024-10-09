@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .top-\[40\%\] {
   top: 40%;
 }
@@ -570,12 +574,28 @@ video {
   top: 49%;
 }
 
+.top-\[55\%\] {
+  top: 55%;
+}
+
+.top-\[62\.5\%\] {
+  top: 62.5%;
+}
+
+.top-\[65\%\] {
+  top: 65%;
+}
+
 .-z-30 {
   z-index: -30;
 }
 
 .-z-40 {
   z-index: -40;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mt-\[0\.4rem\] {
@@ -596,6 +616,10 @@ video {
 
 .mt-\[5\.4rem\] {
   margin-top: 5.4rem;
+}
+
+.mt-\[5\.8rem\] {
+  margin-top: 5.8rem;
 }
 
 .mt-\[5\.9rem\] {
@@ -694,6 +718,10 @@ video {
   height: 4rem;
 }
 
+.h-\[55\.5rem\] {
+  height: 55.5rem;
+}
+
 .h-\[9rem\] {
   height: 9rem;
 }
@@ -774,6 +802,10 @@ video {
   width: 39.2rem;
 }
 
+.w-\[4rem\] {
+  width: 4rem;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -808,6 +840,10 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .resize-none {
@@ -874,6 +910,10 @@ video {
   gap: 2.4rem;
 }
 
+.gap-\[2\.9rem\] {
+  gap: 2.9rem;
+}
+
 .gap-\[2rem\] {
   gap: 2rem;
 }
@@ -884,10 +924,6 @@ video {
 
 .self-end {
   align-self: flex-end;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded-\[0\.4rem\] {
@@ -945,8 +981,23 @@ video {
   background-color: rgb(65 127 86 / var(--tw-bg-opacity));
 }
 
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 95 65 / var(--tw-bg-opacity));
+}
+
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(195 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-white-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-white-200 {
@@ -996,6 +1047,11 @@ video {
 .px-\[9\.4rem\] {
   padding-left: 9.4rem;
   padding-right: 9.4rem;
+}
+
+.py-\[2\.4rem\] {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 .py-\[2rem\] {
@@ -1238,9 +1294,21 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
 
-.Special-offer::-webkit-scrollbar {
+textarea::-webkit-scrollbar {
   display: none;
 }
+
+.ovrHidden {
+  overflow: hidden;
+}
+
+.ovrHidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* .branch-akbatan{
+  background-image: url(./images/address.png);
+} */
 
 .placeholder\:text-white-200::-moz-placeholder {
   --tw-text-opacity: 1;

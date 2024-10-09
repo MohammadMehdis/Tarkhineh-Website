@@ -80,6 +80,15 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
-.Special-offer::-webkit-scrollbar {
+textarea::-webkit-scrollbar {
   display: none;
 }
+.ovrHidden {
+ overflow: hidden;
+}
+.ovrHidden::-webkit-scrollbar {
+  display: none;
+}
+/* .branch-akbatan{
+  background-image: url(./images/address.png);
+} */
