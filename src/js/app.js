@@ -1,69 +1,64 @@
-"use strict";
-var swiper = new Swiper(".mySwiper", {
-  cssMode: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  mousewheel: true,
-  keyboard: true,
-});
+"use strit";
 
-var swiperSlide = new Swiper(".mySwiperSlide", {
-  slidesPerView: 4,
-  spaceBetween: 0,
-  pagination: {
-    el: ".swiper-paginationSlide2",
-    clickable: true,
-  },
-});
+const fistName = document.querySelector(".item-1");
+const lastName = document.querySelector(".item-2");
+const emailADS = document.querySelector(".item-3");
+const number = document.querySelector(".item-4");
+const date = document.querySelector(".item-5");
+const fakeName = document.querySelector(".item-6");
+
+fistName.value = "سردار";
+lastName.value = "وظیفه";
+emailADS.value = "Example@gmail.com";
+number.value = "0914 468 5033";
+date.value = "1990-01-01";
+fakeName.value = "Sardar";
 
 document
-  .getElementById("go-to-last-slide")
-  .addEventListener("click", function () {
-    swiperSlide.slideTo(swiperSlide.slides.length - 1);
-  });
-``;
+  .getElementById("save-button")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
 
-var swiperSlide2 = new Swiper(".mySwiperSlide2", {
-  slidesPerView: 4,
-  spaceBetween: 0,
-  pagination: {
-    el: ".swiper-paginationSlide",
-    clickable: true,
-  },
-});
+    const form = document.getElementById("profile-form");
+    const data = {
+      firstname: form.firstname.value,
+      lastname: form.lastname.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      birth_date: form.birth_date.value,
+      username: form.username.value,
+    };
 
-document
-  .getElementById("go-to-last-slide2")
-  .addEventListener("click", function () {
-    swiperSlide2.slideTo(swiperSlide2.slides.length - 1);
-  });
-``;
-var swiperSlide3 = new Swiper(".mySwiperSlide3", {
-  slidesPerView: 4,
-  spaceBetween: 0,
-  pagination: {
-    el: ".swiper-paginationSlide",
-    clickable: true,
-  },
-});
+    fetch("https://tarkhineh.liara.run/authentication/profile/create/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+        function showToast() {
+          Swal.fire({
+            toast: true,
+            icon: "success",
+            title: "عملیات با موفقیت انجام شد",
+            showConfirmButton: false,
+            timer: 3000,
+            position: "top-end",
+          });
+        }
 
-document
-  .getElementById("go-to-last-slide3")
-  .addEventListener("click", function () {
-    swiperSlide3.slideTo(swiperSlide3.slides.length - 1);
+        document
+          .getElementById("save-button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            showToast();
+          });
+        ``;
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   });
-``;
-var Swiper = new Swiper(".myswiper4", {
-  cssMode: true,
-  navigations: {
-    nextEl: ".swiper-1-button-next",
-    prevEl: ".swiper-1-button-prev",
-  },
-  mousewheel: true,
-  keyboard: true,
-});

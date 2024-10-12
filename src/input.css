@@ -89,6 +89,9 @@ textarea::-webkit-scrollbar {
 .ovrHidden::-webkit-scrollbar {
   display: none;
 }
-/* .branch-akbatan{
+.branch-akbatan{
   background-image: url(./images/address.png);
-} */
+}
+
+
+
