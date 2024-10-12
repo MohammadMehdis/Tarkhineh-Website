@@ -259,7 +259,7 @@
     </div>
     <section class="container px-[10.8rem] mt-[4.8rem] flex justify-between">
       <div
-        class="container-right w-[25%] h-[34.2rem] flex flex-col justify-around rounded-[0.8rem] border-[0.1rem] border-gray-300 p-[0.8rem]"
+        class="container-right w-[25%] h-[45vh] flex flex-col justify-around rounded-[0.8rem] border-[0.1rem] border-gray-300 p-[0.8rem]"
       >
         <div class="user text-[1.6rem] flex items-end gap-[2.5rem]">
           <img src="./images/user.png" alt="" />
@@ -441,7 +441,7 @@
         </div>
       </div>
       <div
-        class="container-left w-[73.5%] h-[75vh] px-[2.4rem] py-[3.2rem] rounded-[0.8rem] border-[0.1rem] border-gray-300 flex flex-col items-end"
+        class="container-left w-[73.5%] h-[75vh] px-[2.4rem] py-[3.2rem] rounded-[0.8rem] border-[0.1rem] border-gray-300 flex flex-col items-center"
       >
         <h2 class="self-start font-semibold text-[2rem] text-black">
           ویرایش اطلاعات شخصی
@@ -449,58 +449,82 @@
         <br />
         <div class="w-full h-[0.1rem] bg-gray-300"></div>
         <br />
+        <br />
         <div class="form-box">
           <form
             id="profile-form"
-            class="w-full h-[16.8rem] flex justify-between flex-wrap"
+            class="w-[71.8rem] h-[25rem] flex justify-between flex-wrap"
             action="#"
           >
-            <input
-              name="firstname"
-              class="item-1 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
-              type="text"
-            />
-            <input
-              name="lastname"
-              class="item-2 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
-              type="text"
-            />
-            <input
-              name="email"
-              class="item-3 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem] text-left"
-              type="text"
-            />
-            <input
-              name="phone"
-              class="item-4 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem] text-left"
-              type="text"
-            />
-            <input
-              name="birth_date"
-              class="item-5 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
-              type="date"
-            />
-            <input
-              name="username"
-              class="item-6 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
-              type="text"
-            />
+            <div class="input-container">
+              <input
+                name="firstname"
+                class="item-1 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
+                type="text"
+              />
+              <span class="border-text">نام</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="lastname"
+                class="item-2 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
+                type="text"
+              />
+              <span class="border-text">نام خانوادگی</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                name="email"
+                class="item-3 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem] text-left"
+                type="text"
+              />
+              <span class="border-text">ایمیل</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                name="phone"
+                class="item-4 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem] text-left"
+                type="text"
+              />
+              <span class="border-text">شماره</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="birth_date"
+                class="item-5 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
+                type="date"
+              />
+              <span class="border-text">تاریخ تولد</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="username"
+                class="item-6 w-[35.1rem] h-[4rem] border-[0.1rem] border-black text-black focus:outline-none px-[1.6rem] rounded-[0.8rem]"
+                type="text"
+              />
+              <span class="border-text">نام نمایشی</span>
+            </div>
+
+            <div class="w-full flex justify-end">
+              <div
+                class="w-[27.5rem] flex flex-row-reverse justify-between items-center text-[1.6rem]"
+              >
+                <button
+                  id="save-button"
+                  class="w-[13.1rem] h-[4rem] bg-green-100 text-white-100 rounded-[0.4rem] flex justify-center items-center"
+                >
+                  ذخیره اطلاعات
+                </button>
+                <a
+                  class="w-[13.1rem] h-[4rem] bg-transparent text-green-100 flex justify-center items-center border-[0.1rem] border-green-100 rounded-[0.4rem]"
+                  href="./index.html"
+                  >انصراف</a
+                >
+              </div>
+            </div>
           </form>
-        </div>
-        <div
-          class="w-[27.5rem] flex flex-row-reverse justify-between items-center text-[1.6rem]"
-        >
-          <button
-            id="save-button"
-            class="w-[13.1rem] h-[4rem] bg-green-100 text-white-100 rounded-[0.4rem] flex justify-center items-center"
-          >
-            ذخیره اطلاعات
-          </button>
-          <a
-            class="w-[13.1rem] h-[4rem] bg-transparent text-green-100 flex justify-center items-center border-[0.1rem] border-green-100 rounded-[0.4rem]"
-            href="#"
-            >انصراف</a
-          >
         </div>
       </div>
     </section>

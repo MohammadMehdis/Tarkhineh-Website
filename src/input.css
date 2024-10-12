@@ -95,3 +95,18 @@ textarea::-webkit-scrollbar {
 
 
 
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.border-text {
+  position: absolute;
+  top: -10px; 
+  right: 16px;
+  background-color: white;
+  padding: 0 5px; 
+  color: black; 
+  font-weight: bold; 
+  font-size: 0.9rem; 
+}
